@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OPlayTCG Exporter</title>
+  <style>
+    body {
+      width: 350px;
+      padding: 16px;
+      font-family: system-ui, sans-serif;
+      background: #141414;
+      color: white;
+    }
+
+    h2 { margin-top: 0; }
+
+    textarea {
+      width: 100%;
+      height: 300px;
+      box-sizing: border-box;
+      background: #222;
+      color: white;
+      border: 1px solid #444;
+      border-radius: 6px;
+      padding: 10px;
+      resize: vertical;
+    }
+
+    button {
+      width: 100%;
+      padding: 11px;
+      margin-top: 10px;
+      background: #f59e0b;
+      color: #111;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    #status {
+      margin-top: 10px;
+      min-height: 32px;
+      font-size: 13px;
+      line-height: 1.4;
+      color: #e5e5e5;
+    }
+  </style>
+</head>
+<body>
+  <h2>OPlayTCG Deck Exporter</h2>
+  <textarea id="decklist" readonly></textarea>
+  <button id="copy">Copiar decklist</button>
+  <div id="status">Lendo deck...</div>
+  <script src="popup.js"></script>
+</body>
+</html>

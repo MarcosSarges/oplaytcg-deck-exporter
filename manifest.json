@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "OPlayTCG Deck Exporter",
+  "version": "1.0.2",
+  "description": "Copia a decklist do Deck Builder do OPlayTCG em texto, com códigos e quantidades.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Copiar decklist",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  }
+}
