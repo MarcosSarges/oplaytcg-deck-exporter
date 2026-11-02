@@ -36,13 +36,13 @@ Cole os textos de `LISTING.md` e envie:
 
 Use as justificativas de `LISTING.md`.
 
-**Privacy policy URL** (GitHub Pages):
+**Privacy policy URL** (já no ar via GitHub Pages):
 
 ```
 https://marcossarges.github.io/oplaytcg-deck-exporter/store/politica-de-privacidade.html
 ```
 
-Se a URL ainda não abrir, aguarde 1–2 minutos após o push ou ative Pages em Settings → Pages → Deploy from branch `main` / `/ (root)`.
+Repositório: https://github.com/MarcosSarges/oplaytcg-deck-exporter
 
 Remote code: **No**.
 
